@@ -1,0 +1,59 @@
+ 
+body{
+background-color: #c4fff9
+} 
+.card-title{
+background-color: aqua ;
+border: 2px solid navy;
+border-radius: 10px;
+text-align: center;
+font-variant: small-caps;
+font-size: 1.5rem;
+
+}
+a{
+    text-align: center;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    text-decoration: none;
+    font-variant: small-caps;
+    
+
+}
+.a{
+    height: 300px;
+    background-color: grey;
+}
+
+.b{
+    height: 300px;
+    background-color: rgb(52, 123, 145);
+}
+
+.c {
+    height: 300px;
+    background-color: rgb(31, 150, 61);
+    /* width: 1000px; 
+   */
+}
+
+.card{
+    height: 150px;
+    -webkit-box-shadow: -3px 7px 31px -3px rgba(50, 69, 200, 1);
+    -moz-box-shadow: -3px 7px 31px -3px rgba(50, 69, 200, 1);
+    box-shadow: -3px 7px 31px -3px rgb(168, 177, 236);
+}
+
+#section-sa, #section-al, #section-lyb{
+    border: 1px solid red;
+}
+.section-h{
+    text-align: center;
+    margin: auto;
+}
+.section-h span{
+    border: 1px solid red;
+}
+h2{
+    text-align: center;
+}
