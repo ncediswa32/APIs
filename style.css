@@ -1,9 +1,10 @@
  
 body{
- background-color: black; 
+ background-color: gray; 
+ 
 } 
 .card-title{
-background-color: aqua ;
+background-color: lightblue ;
 border: 2px solid navy;
 border-radius: 10px;
 text-align: center;
@@ -41,16 +42,17 @@ a{
 
 .card{
     height: 150px;
-    -webkit-box-shadow: -3px 7px 31px -3px rgba(50, 69, 200, 1);
+    /* -webkit-box-shadow: -3px 7px 31px -3px rgba(50, 69, 200, 1);
     -moz-box-shadow: -3px 7px 31px -3px rgba(50, 69, 200, 1);
-    box-shadow: -3px 3px 31px 5px rgb(168, 177, 236);
+    box-shadow: -3px 3px 31px 5px rgb(168, 177, 236); */
+    
 }
 
 .countries{
-    -webkit-box-shadow: -3px 7px 31px -3px rgba(50, 69, 200, 1);
+    /* -webkit-box-shadow: -3px 7px 31px -3px rgba(50, 69, 200, 1);
     -moz-box-shadow: -3px 7px 31px -3px rgba(50, 69, 200, 1);
     box-shadow: -3px 3px 15px -20px rgb(168, 236, 191);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255); */
 }
 
 
@@ -67,7 +69,7 @@ a{
     position: relative !important;
 }
 #section-al{
-    background-color:#6E78FF ;
+    background-color:#0F971C ;
     padding-top: 5rem;
     padding-bottom: 6rem;
     position: relative !important;
@@ -92,7 +94,9 @@ a{
     left: 40%;
     font-size: 1.5rem;
     position: absolute;
+    background-color: grey;
 }
 h2{
     text-align: center;
+    font-weight: bold;
 }
