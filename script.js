@@ -1,14 +1,17 @@
 let frontData = document.getElementById('api');
-let frontData2 = document.getElementById('api11')
-let frontData3 = document.getElementById('api01')
-let frontData4 = document.getElementById('api02')
+let frontData2 = document.getElementById('api11');
+let frontData3 = document.getElementById('api01');
+let frontData4 = document.getElementById('api02');
 
 let secData1 = document.getElementById('api2');
 let secData2 = document.getElementById('api3');
 let secData3 = document.getElementById('api4');
-let secData4= document.getElementById('api5');
+let secData4 = document.getElementById('api5');
 
-let thirdData = document.getElementById('api3')
+let thirdData1 = document.getElementById('api022');
+let thirdData2 = document.getElementById('api44');
+let thirdData3 = document.getElementById('api66');
+let thirdData4 = document.getElementById('api88');
 // fetch("https://api.covid19api.com/")
 //   .then(response => response.json())
 //   .then(result =>{
@@ -73,10 +76,11 @@ fetch("https://api.covid19api.com/live/country/algeria/status/confirmed")
 .then(response => response.json())
   // .then(result => console.log(result))
 .then(result =>{
-  SumDeath.innerHTML = result[438].Deaths;
+//   SumDeath.innerHTML = result[438].Deaths;
+  
   secData1.innerHTML = 
 
-  `<p>${'Confirmed'}:
+`<p>${'Confirmed'}:
   ${result[39].Confirmed},
   </p>`
 
@@ -89,7 +93,7 @@ fetch("https://api.covid19api.com/live/country/algeria/status/confirmed")
   `<ul>${'Deaths'}:
   ${result[39].Deaths},
   </ul>`
-  
+
    secData4.innerHTML =
   `<ul>${'Recovered'}:
   ${result[39].Recovered},
@@ -101,6 +105,7 @@ fetch("https://api.covid19api.com/live/country/algeria/status/confirmed")
   
 }
 // Algeria()
+
 
 function Libya() {
 let SumOfDeath = document.querySelector('.totDeath3')
