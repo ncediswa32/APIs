@@ -1,11 +1,11 @@
  
 body{
- background-color: gray; 
+ background-color: whitesmoke; 
  
 } 
 .card-title{
 background-color: lightblue ;
-border: 2px solid navy;
+border: 2px solid black;
 border-radius: 10px;
 text-align: center;
 font-variant: small-caps;
@@ -14,7 +14,7 @@ font-size: 1.2rem;
 }
 a{
     text-align: center;
-    border: 2px solid orangered;
+    /* border: 2px solid orangered; */
     border-radius: 10px;
     text-decoration: none;
     font-variant: small-caps;
@@ -63,19 +63,19 @@ a{
     
 }
 #section-sa{
-    background-color: #E60B09;
+    /* background-color: navy; */
     padding-top: 5rem;
     padding-bottom: 6rem;
     position: relative !important;
 }
 #section-al{
-    background-color:#0F971C ;
+    /* background-color: */
     padding-top: 5rem;
     padding-bottom: 6rem;
     position: relative !important;
 }
 #section-lyb{
-    background-color:#F6F151;
+    /* background-color: */
     padding-top: 5rem;
     padding-bottom: 6rem;
     position: relative !important;
@@ -94,9 +94,13 @@ a{
     left: 40%;
     font-size: 1.5rem;
     position: absolute;
-    background-color: grey;
+    /* background-color: ; */
 }
 h2{
     text-align: center;
-    font-weight: bold;
+    background-color: gray;
+}
+h1{
+    font-size: small;
+    font-weight: 100;
 }
