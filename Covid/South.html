@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>South Afirca</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="south.css">
+</head>
+<body>
+    <div class="card shadow mb-2" id="god">
+        <div class="card-body pt-2 pb-2">
+          <div class="mt-4a text-center small description">
+            <h2><i class="fas fa-chart-pie fa-md fa-fw mr-2 text-gray-600"></i><b id="text">SOUTH AFRICAN STATS</b></h2>
+          </div>
+        </div>
+      </div>
+      <div class="bbb">
+      <h2>Population vs Covid Cases</h2>
+    <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+    
+        <div class="container">
+          <p id="deaths">Deaths</p>
+          <p id="recoverd">Recovered</p>
+          <p id="confirmed">Confirmed</p>
+          <p id="active">Active</p>
+        </div>
+        <div class="card shadow mb-2" id="god1">
+          <div class="card-body pt-2 pb-2">
+            <div class="mt-4a text-center small description">
+              <h4><i class="fas fa-chart-pie fa-md fa-fw mr-2 text-gray-600"></i><a href="#god2" onclick="SA()" id="text1">Total Stats</a></h4>
+            </div>
+          </div>
+        </div>
+        </div>
+        
+      <div class="card border-left-primary shadow h-100 py-2" id="bloc"  >
+        <div class="card-body" >
+          <div class="row no-gutters align-items-center" >
+            <div class="col mr-2" >
+              <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Total Recovered (25th July - 4th August)</div>
+              <div class="h5 mb-0 font-weight-bold text-gray-800" id="api02"></div>
+              <div class="text-xs text-gray-800 mt-1" id="api01"></div>
+            </div>
+            <div class="col-auto">
+              <i class="fas fa-ambulance fa-2x text-gray-300"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card border-left-primary shadow h-100 py-2" id="bloc1" class="move">
+        <div class="card-body">
+          <div class="row no-gutters align-items-center">
+            <div class="col mr-2">
+              <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Total Confirmed (25th July - 4th August)</div>
+              <div class="h5 mb-0 font-weight-bold text-gray-800" id="api11"></div>
+              <div class="text-xs text-gray-800 mt-1" id="api"></div>
+            </div>
+            <div class="col-auto">
+              <i class="fas fa-ambulance fa-2x text-gray-300"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card border-left-primary shadow h-100 py-2"  id="bloc1">
+        <div class="card-body">
+          <div class="row no-gutters align-items-center">
+            <div class="col mr-2">
+              <div class="text-xs font-weight-bold text-danger text-uppercase mb-1">Total Deaths (25th July - 4th August)</div>
+              <div class="h5 mb-0 font-weight-bold text-gray-800" id="api03"></div>
+              <div class="text-xs text-gray-800 mt-1" id="api04"></div>
+            </div>
+            <div class="col-auto">
+              <i class="fas fa-ambulance fa-2x text-gray-300"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card border-left-primary shadow h-100 py-2"  id="bloc1" >
+        <div class="card-body" id="move">
+          <div class="row no-gutters align-items-center">
+            <div class="col mr-2">
+              <div class="text-xs font-weight-bold text-dark text-uppercase mb-1">Total Active (25th July - 4th August)</div>
+              <div class="h5 mb-0 font-weight-bold text-gray-800" id="api05"></div>
+              <div class="text-xs text-gray-800 mt-1" id="api06"></div>
+            </div>
+            <div class="col-auto">
+              <i class="fas fa-ambulance fa-2x text-gray-300"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card shadow mb-2" id="god2">
+        <div class="card-body pt-2 pb-2">
+          <div class="mt-4a text-center small description">
+            <h4><i class="fas fa-chart-pie fa-md fa-fw mr-2 text-gray-600"></i><a href="index.html" id="text1">HOME</a></h4>
+          </div>
+        </div>
+      </div>
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+      <script src="south.js"></script>   
+</body>
+</html>

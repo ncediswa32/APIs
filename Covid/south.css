@@ -1,0 +1,87 @@
+#text{
+    font-family: arial black;
+    color: gray;
+    
+}
+body{
+    background-color: rgb(221, 221, 221);
+}
+#deaths{
+    color: red;
+}
+#recoverd{
+    color: blue;
+}
+#confirmed{
+    color: green;
+}
+#active{
+    color: black;
+}
+.container{
+    text-align: center;
+    display: flex;
+    text-align: justify;
+    margin-top: 10px;
+    text-indent: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+h2{
+    font-family: fantasy;
+    text-indent: 150px ;
+    
+   
+}
+#god{
+  width: 90%;
+  text-align: center; 
+  margin-left: 65px;
+}
+.bbb{
+    /* text-align: center; */
+    /* justify-content: center; */
+    margin-left: 380px;
+    margin-top: 40px;
+}
+#bloc{
+    margin-top: 80px;
+    width: 90%;
+  text-align: center; 
+  margin-left: 65px;
+}
+#bloc1{
+    margin-top: 10px;
+    width: 90%;
+  text-align: center; 
+  margin-left: 65px;
+}
+#god1{
+    width: 50%;
+    text-align: center; 
+    margin-left: 65px;
+    margin-top: 50px;
+  }
+  #god2{
+    width: 20%;
+    text-align: center; 
+    margin-left: 550px;
+    margin-top: 40px;
+  }
+  #god2:hover{
+    background-color: gray;
+
+  }
+  #text1{
+    font-family: arial black;
+    color: gray;
+  }
+  #text1:hover{
+    color: white;
+  }
+  #god1:hover{
+    background-color: gray;
+  }
+
+
