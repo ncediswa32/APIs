@@ -1,17 +1,11 @@
  
 body{
- /* background-color: gray;  */
- background-image: url(https://www.paho.org/sites/default/files/styles/max_1500x1500/public/hero/2020-03/covid-19-1190x574-2-full.jpg?itok=ZtEWNGB3);
- /* filter: blur(8px);
- -webkit-filter: blur(8px); */
- /* background-repeat: no-repeat; */
- /* width: 100px; */
- 
+ background-color: whitesmoke; 
  
 } 
 .card-title{
 background-color: lightblue ;
-border: 2px solid navy;
+border: 2px solid black;
 border-radius: 10px;
 text-align: center;
 font-variant: small-caps;
@@ -20,8 +14,8 @@ font-size: 1.2rem;
 }
 a{
     text-align: center;
-    /* border: 2px solid orangered; */
-    border-radius: 100px;
+    border: 2px solid orangered;
+    border-radius: 10px;
     text-decoration: none;
     font-variant: small-caps;
     font-size: 1rem;
@@ -63,7 +57,7 @@ a{
     -moz-box-shadow: -3px 7px 31px -3px rgba(50, 69, 200, 1);
     box-shadow: -3px 3px 15px -20px rgb(168, 236, 191);
     background-color: rgb(255, 255, 255); */
-
+}
 
 
 #section-sa, #section-al, #section-lyb{
@@ -73,19 +67,19 @@ a{
     
 }
 #section-sa{
-    /* background-color: #E60B09; */
+    background-color: #E60B09;
     padding-top: 5rem;
     padding-bottom: 6rem;
     position: relative !important;
 }
 #section-al{
-    /* background-color:#0F971C ; */
+    background-color:#0F971C ;
     padding-top: 5rem;
     padding-bottom: 6rem;
     position: relative !important;
 }
 #section-lyb{
-    /* background-color:#F6F151; */
+    background-color:#F6F151;
     padding-top: 5rem;
     padding-bottom: 6rem;
     position: relative !important;
@@ -104,11 +98,15 @@ a{
     left: 40%;
     font-size: 1.5rem;
     position: absolute;
-    background-color: grey;
+    /* background-color: ; */
 }
 h2{
     text-align: center;
-    font-weight: bold;
+    background-color: gray;
+}
+h1{
+    font-size: small;
+    font-weight: 100;
 }
 #img  {
     /* width: 50% !important; */
